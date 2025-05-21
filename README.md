@@ -2,7 +2,8 @@
 # Setup on PowerShell 
 - git clone https://github.com/vicouncil/WinInfex
 - cd WinInfex
-- cd resource 
+- cd resource
+- pip install -r requirements.txt
 - python -m PyInstaller --onefile winInfex.py
 - cd dist
 - [Convert]::ToBase64String([IO.File]::ReadAllBytes("winInfex.exe")) > base64.txt
